@@ -27,52 +27,65 @@ body{
     align-items: center;
 }
 
-.card01, .card02, .card03, .card04, .card05, .card06, .card07, .card08, .card09{
+h1{
+    position: absolute;      
+}
+
+.boxDelimiterForm01, .boxDelimiterForm02, .boxDelimiterForm03, .boxDelimiterForm04, .boxDelimiterForm05, .boxDelimiterForm06, .boxDelimiterForm07, .boxDelimiterForm08, .boxDelimiterForm09{
+    height: 30vh;
     width: 20vw;
-    height: 20vh;
-    background-color: white;
-    border-radius: 10px;
-    border: 1px solid black;
+    background-color: blue;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
+    position: absolute;   
+}
+
+.boxDelimiterForm01{
+    top: 0;
+    left: 0;
+}
+
+.boxDelimiterForm02{
+    top: 0;   
+}
+
+.boxDelimiterForm03{
+    top: 0;
+    right: 0;
+}
+
+.boxDelimiterForm04{
+    left: 0;
+}
+
+.boxDelimiterForm06{
+    right: 0;
+}
+
+.boxDelimiterForm07{
+    bottom: 0;
+    left: 0;
+}
+
+.boxDelimiterForm08{
+    bottom: 0;
+}
+
+.boxDelimiterForm09{
+    bottom: 0;
+    right: 0;
+}
+
+.card01, .card02, .card03, .card04, .card05, .card06, .card07, .card08, .card09{
+    width: 0; 
+    height: 0; 
+    border-top: 15vh solid transparent;
+    border-bottom: 15vh solid transparent;
+    border-left: 20vw solid #ffffff;  
+
     position: absolute;
-}
-
-.card01{    
-    top: 0;
     left: 0;
-}
-
-.card02{    
-    top: 0;    
-}
-
-.card03{    
-    top: 0;
-    right: 0;
-}
-
-.card04{      
-    left: 0;
-}
-
-.card06{    
-    right: 0;
-}
-
-.card07{    
-    bottom: 0;
-    left: 0;
-}
-
-.card08{    
-    bottom: 0;
-}
-
-.card09{    
-    bottom: 0;
-    right: 0;
 }
